@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EATreasureHunt</string>
+    <string name="action_settings">Settings</string>
+    <string name="ea_treasure_hunt">The Edinburgh Academy Treasure Hunt</string>  
+    <string name="start_app">Go To Treasure Hunt</string>
+    <string name="reconfigure_app">Reconfigure</string>
+    <string name="close_app">Close</string>
+    <string name="start_hunt">Start Treasure Hunt</string>
+    <string name="start_instruction">To start the Treasure Hunt, please press the button below.</string>
+    <string name="continue_hunt">Continue Treasure Hunt</string>
+    <string name="continue_instruction">To continue the Treasure Hunt, please press the button below.</string>
+    <string name="next">Next</string>
+    <string name="got_there">Got there!</string>   
+    <string name="answer_question">Answer question</string>
+    <string name="play_again">Say Again</string>
+    <string name="extra_prize">Click for Extra Prize!</string>   
+    <string name="extra_prize_on_offer">EXTRA PRIZE ON OFFER!</string>    
+    <string name="select_answer">Select answer... </string>
+    <string name="prompt_answer">Please answer the question!</string>
+    <string name="prompt_all_answer">Please answer all questions!</string>
+    <string name="done">Done</string>    
+    <string name="memory_type">Memory Type: </string>
+    <string name="memory">Memory</string>
+    <string name="no_memory">No Memory</string>        
+    <string name="route">Route: </string>
+    <string name="route_1">Route 1</string>
+    <string name="route_2">Route 2</string>     
+    <string name="user_ID">User ID: </string>
+    <string name="machine_IP">Machine IP: </string>    
+    <string name="IP_address">192.168.1.21</string>        
+	<string name="submit">Submit</string>
+	<string name="close">Close Window</string>  
+	<string name="prize_info">Somewhere on your route there will be some information on Edinburgh\'s original tram system.</string>  
+	<string name="question1">What is the evidence?</string>
+	<string name="question2">Where is the evidence?</string>  
+	<string name="q1_answer">Pulley unit</string>
+	<string name="q2_answer">On the corner of Henderson Place</string>
+	<string name="both_correct">You answered both questions correctly!</string>
+	<string name="q1_correct">The correct answer for question 2 is on the corner of Henderson Place.</string>
+	<string name="q2_correct">The correct answer for question 1 is a pulley unit.</string>
+	<string name="both_wrong">The correct answer for question 1 is a pulley unit and the answer for question 2 is on the corner of Henderson Place.</string>
+	<string name="already_answered">You have already answered the questions!</string>
+	<string name="blank"></string>
+	<string name="thats_correct">, that\'s correct!</string>
+	<string name="correct_answer">The correct answer is </string>
+	<string name="paper_task">On the sheet of paper, you will need to complete a simple land-use map of the ground floor uses of the buildings on the south side of Henderson Row.</string>
+	<string name="take_turn">It\'s your friend\'s turn to hold the tablet now. Please pass it over.</string>
+	<string name="finish_setup">Please finish setup before proceeding!</string>
+	<string name="migrate_instruction">Please press the button below to invite Susie to migrate over.</string>
+	<string name="invite_migrate">Invite Migrate</string>
+	<string name="use_skills">Use your map skills to follow the route and find the clues. Good luck!</string>
+	<string name="recapHighSkills">You were excellent at</string>
+	<string name="recapMedSkills">You were good at</string>
+	<string name="recapLowSkills">You learned</string>
+	<string name="recapUseSkills">Let\'s see how you put them to use now.</string>
+	<string name="recapTools">And remember you used the</string>
+	<string name="recapToolUsefulness">tool. Keep it in mind as it will be very useful here.</string>
+	<string name="recapToolsUsefulness">tools. Keep them in mind as they will be very useful here.</string>
+	<string name="goodLuck">Good luck!</string>
+	<string name="R1_C2_tool">direction</string>
+	<string name="R1_C2_usedTool">Do you remember, we used the compass before on the table to determine which direction you are heading. We can use it again now.</string>
+	<string name="R1_C2">We didn\'t try using the compass before on the table, but why don\'t you make use of it now?</string>
+	<string name="R1_C2_no_memory">You can try using the compass to determine which direction you are heading.</string>
+	<string name="R1_C4_tool">map key</string>
+	<string name="R1_C4_usedTool">Do you remember using the map key before on the table? You may have to remind yourselves of some of the symbols now!</string>
+	<string name="R1_C4">We didn\'t try using the map key before on the table. But let\'s see if you can recognise some map symbols anyway.</string>
+	<string name="R1_C4_no_memory">Let\'s see if you can recognise some map symbols.</string>
+	<!-- string name="R1_C6_tool">distance</string>
+	<string name="R1_C6_usedTool">Remember how easy it was to measure distances on the map using the measuring tool? We can do something similar here but using the scale at the bottom of the map.</string>
+	<string name="R1_C6">You didn\'t have a chance to use the distance tool before on the table. Not to worry, we can use the scale at the bottom of the map to measure distance.</string>
+	<string name="R1_C6_no_memory">You can try using the scale at the bottom of the map to help you measure the distance between two points.</string-->
+	<string name="R1_C8_tool">direction</string>
+	<string name="R1_C8_usedTool">You have used the compass before. Remember to make use of it here again!</string>
+	<string name="R1_C8">You have used the compass before. Remember to make use of it here again!</string>
+	<string name="R1_C8_no_memory">You can use the compass to help you with directions.</string>
+	<string name="R1_C11_tool">map key</string>
+	<string name="R1_C11_usedTool">By the way, do you recognise the map symbol for school? Have a look for it on your map to find your way back to the school.</string>
+	<string name="R1_C11">By the way, do you recognise the map symbol for school? Have a look for it on your map to find your way back to the school.</string>
+	<string name="R1_C11_no_memory">By the way, do you recognise the map symbol for school? Have a look for it on your map to find your way back to the school.</string>
+	<string name="direction_skill">compass directions</string>
+	<string name="distance_skill">measuring the distance between two points</string>
+	<string name="symbol_skill">recognising what the symbols on the map mean</string>
+	<string name="direction_tool">compass</string>
+	<string name="distance_tool">distance</string>
+	<string name="symbol_tool">map key</string>
+	
+	
+	<string-array name="Q1_answers">
+	    <item>Select answer... </item>
+        <item>Tram track</item>
+        <item>Pulley unit</item>
+        <item>A Tram</item>
+        <item>Tram stop</item>
+    </string-array>
+    
+	<string-array name="Q2_answers">
+	    <item>Select answer... </item>
+        <item>On the corner of Clarence Street</item>
+        <item>On the corner of Saxe Coburg Street</item>
+        <item>On the corner of Henderson Place</item>
+        <item>On the corner of West Silvermills Lane</item>
+    </string-array>
+
+</resources>

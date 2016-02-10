@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EATreasureHuntActivity" >   
+    
+    <LinearLayout 
+        android:orientation="horizontal" 
+        android:layout_height="250dip" 
+        android:layout_width="fill_parent"   
+        android:id="@+id/logoHolder" >
+    	<ImageView
+        	android:id="@+id/imgLogo"
+      		style="@style/WidthHeightWrap"
+			android:layout_gravity="center"
+			android:scaleType="matrix"
+       	 	android:src="@drawable/treasure_box" />
+    	
+    	 <TextView 
+            android:id="@+id/txtEATreasureHunt"
+             android:layout_marginLeft="20dip"
+            android:text="@string/ea_treasure_hunt"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            style="@style/WidthFillHeightWrap"/>
+    </LinearLayout>
+    
+    <LinearLayout         
+        android:id="@+id/memoryLayout"
+        android:orientation="vertical" 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:layout_below="@id/logoHolder" >
+    	
+        <TextView 
+            android:id="@+id/txtMemoryType"
+            android:text="@string/memory_type"
+            style="@style/WidthFillHeightWrap"/>
+
+        <RadioGroup
+	        android:id="@+id/radioMemoryType"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	        <RadioButton
+	            android:id="@+id/rbMemory"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/memory" />
+	
+	        <RadioButton
+	            android:id="@+id/rbNoMemory"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/no_memory" />
+	    </RadioGroup>
+	</LinearLayout>
+	
+	<LinearLayout     
+	    android:id="@+id/routeLayout"    
+        android:orientation="vertical" 
+        android:layout_marginLeft="150dip"
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"   
+        android:layout_below="@id/logoHolder" 
+        android:layout_toRightOf="@id/memoryLayout">
+      
+        <TextView 
+            android:id="@+id/txtRoute"
+            android:text="@string/route"
+            style="@style/WidthFillHeightWrap"/>
+
+        <RadioGroup
+	        android:id="@+id/radioRoute"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	        <RadioButton
+	            android:id="@+id/rbRoute1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/route_1" />
+	
+	        <RadioButton
+	            android:id="@+id/rbRoute2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/route_2" />
+	    </RadioGroup>
+	</LinearLayout>
+	
+    <LinearLayout        
+        android:id="@+id/userIDLayout"    
+        android:orientation="vertical"   
+        android:layout_marginLeft="150dip"      
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"  
+        android:focusableInTouchMode="true" 
+        android:layout_below="@id/logoHolder" 
+        android:layout_toRightOf="@id/routeLayout" >     
+       	<TextView 
+            android:id="@+id/txtUserID"
+            android:text="@string/user_ID"
+            style="@style/WidthFillHeightWrap"/>
+       	
+        <EditText 
+           	android:id="@+id/editUserID"
+           	style="@style/WidthHeight.SingleLine"/>           
+           	
+        <TextView 
+            android:id="@+id/txtMachineIP"
+            android:text="@string/machine_IP"
+            style="@style/WidthFillHeightWrap"/>
+       	
+        <EditText 
+           	android:id="@+id/editMachineIP"
+           	style="@style/WidthHeight.SingleLine"
+           	android:text="@string/IP_address"/>
+    </LinearLayout>
+    
+   <LinearLayout        
+        android:orientation="vertical"    
+        android:layout_marginLeft="150dip"        
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"   
+        android:layout_below="@id/logoHolder" 
+        android:layout_toRightOf="@id/userIDLayout" >         
+            
+        <Button android:id="@+id/btnStartApp"
+            android:layout_gravity="center"
+        	style="@style/Button" 
+        	android:text="@string/start_app"/>  
+        	
+        <Button android:id="@+id/btnReconfigureApp"
+            android:layout_gravity="center"
+        	style="@style/Button" 
+        	android:text="@string/reconfigure_app"/>      
+    </LinearLayout>
+    
+     <LinearLayout        
+        android:orientation="vertical"    
+        android:layout_marginLeft="200dip"        
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"   
+        android:layout_below="@id/memoryLayout" >         
+            
+        <TextView android:id="@+id/txtSetupError"
+        	style="@style/WidthHeight.Error" 
+        	android:text="@string/finish_setup" 
+        	android:visibility="invisible"/>          
+    </LinearLayout>
+    
+</RelativeLayout>

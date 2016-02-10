@@ -1,0 +1,27 @@
+<xml>
+<title>
+Treasure Hunt in Edinburgh Academy
+</title>
+<feedback>
+	<!-- fbtype name="neutral">
+		<positive>
+			<item><text>Correct</text><gesture>neutral</gesture></item>
+		</positive>
+		<negative>
+			<item><text>Incorrect</text><gesture>neutral</gesture></item>
+		</negative>
+	</fbtype-->
+	<fbtype name="affective">
+		<positive>
+			<item><text>Fantastic</text><gesture>joy</gesture></item>
+			<item><text>Wonderful</text><gesture>joy</gesture></item>
+			<item><text>Very good</text><gesture>joy</gesture></item>
+			<item><text>Brilliant</text><gesture>joy</gesture></item>
+		</positive>
+		<negative>
+			<item><text>Oh no</text><gesture>neutral</gesture></item>
+			<item><text>That's incorrect</text><gesture>neutral</gesture></item>
+		</negative>
+	</fbtype>
+</feedback>
+</xml>

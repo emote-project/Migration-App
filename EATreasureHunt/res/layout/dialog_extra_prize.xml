@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WidthHeight"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dip"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/txtPrizeInfo"
+     	style="@style/WidthFillHeightWrap" 
+     	android:layout_marginBottom="10dip"
+     	android:text="@string/prize_info"/>
+    
+    <TextView 
+        android:id="@+id/txtQuestion1"
+        android:text="@string/question1"
+        style="@style/WidthFillHeightWrap"
+        android:layout_below="@id/txtPrizeInfo"/>
+
+    <Spinner
+		android:id="@+id/spQ1Answers"
+		style="@style/WidthHeightWrap"
+		android:layout_below="@id/txtQuestion1"/>
+    <!-- RadioGroup
+	    android:id="@+id/radioQ1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+	    <RadioButton
+	         android:id="@+id/rbQ1A1"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/q1a1" />
+	     <RadioButton
+	         android:id="@+id/rbQ1A2"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/q1a2" />	
+	     <RadioButton
+	         android:id="@+id/rbQ1A3"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/q1a3" />	 
+	     <RadioButton
+	         android:id="@+id/rbQ1A4"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/q1a4" />	
+	 </RadioGroup-->
+	 
+	 <TextView 
+        android:id="@+id/txtQuestion2"
+        android:text="@string/question2"
+        style="@style/WidthFillHeightWrap"
+        android:layout_below="@id/spQ1Answers"/>
+	 <Spinner
+		android:id="@+id/spQ2Answers"
+		style="@style/WidthHeightWrap"
+		android:layout_below="@id/txtQuestion2"/>
+	 <!--  RadioGroup
+	    android:id="@+id/radioQ2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+	    <RadioButton
+	         android:id="@+id/rbQ2A1"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/q2a1" />
+	     <RadioButton
+	         android:id="@+id/rbQ2A2"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/q2a2" />	
+	     <RadioButton
+	         android:id="@+id/rbQ2A3"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/q2a3" />	 
+	     <RadioButton
+	         android:id="@+id/rbQ2A4"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/q2a4" />	         
+    </RadioGroup-->
+     <!--  Error message -->
+    <TextView android:id="@+id/txtDialogError"
+        style="@style/WidthHeight.Error" 
+        android:layout_below="@id/spQ2Answers"/>    
+        
+    <Button android:id="@+id/btnSubmit"
+        style="@style/DialogButton"
+        android:layout_marginLeft="100dip"
+        android:layout_below="@id/txtDialogError"
+        android:text="@string/submit" />    
+            
+    <Button android:id="@+id/btnClose"
+        style="@style/DialogButton"
+        android:layout_marginLeft="20dip"
+        android:layout_below="@id/txtDialogError"
+        android:layout_toRightOf="@id/btnSubmit"
+        android:text="@string/close" />  
+	  
+</RelativeLayout>

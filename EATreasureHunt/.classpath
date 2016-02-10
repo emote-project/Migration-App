@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="C:/Meiyii/eMOTE/Android-Lirec/HwuDialogSystem/bsh-core-2.0b4.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/HwuDialogSystem"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="C:/Meiyii/eMOTE/EATreasureHunt/XMLParser/bin/xmlparser.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Meiyii/eMOTE/EATreasureHunt/Android3DEmys/bin/android3demys.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

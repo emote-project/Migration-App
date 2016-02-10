@@ -1,0 +1,67 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="WidthHeightFill">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="WidthHeight">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+ 	<style name="WidthHeightWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="WidthFillHeightWrap">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="WidthHeightWrap.center">
+        <item name="android:layout_gravity">center</item>
+    </style>
+     <style name="WidthHeightWrap.padding">
+         <item name="android:padding">5dip</item>
+    </style>
+    <style name="Button">
+ 	    <item name="android:layout_width">150dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">15dip</item>
+    </style>
+    <style name="DialogButton">
+ 	    <item name="android:layout_width">150dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dip</item>
+    </style>
+    <style name="WidthHeight.SingleLine">
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="WidthHeight.Error">
+        <item name="android:textColor">#e30000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WidthHeight.Link">
+        <item name="android:textColor">#0b84aa</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>        
+        <item name="android:layout_marginBottom">10dip</item>
+    </style>
+</resources>
